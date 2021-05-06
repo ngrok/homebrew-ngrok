@@ -1,12 +1,13 @@
 cask "ngrok" do
   version :latest
-  sha256 :no_check
 
   if Hardware::CPU.intel?
     url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-amd64.zip",
+    sha256 "1740437cbe26bf2766b059652b829b9e5c5116c0251d486189d338f0e280c256",
         verified: "bin.equinox.io/"
   else
     url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-arm64.zip",
+    sha256 "65bc813566a841e500db4c000510b79649a151d541f44fcd9e173adf12e07cd6",
         verified: "bin.equinox.io/"
   end
   name "ngrok"
