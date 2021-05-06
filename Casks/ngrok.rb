@@ -6,7 +6,7 @@ cask "ngrok" do
     sha256 "3e40376cfff0f7c2494bd4396049b0897d00f0010bb07aaea461b0037f86034e"
   else
     url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-darwin-arm64.zip"
-    sha256 "65bc813566a841e500db4c000510b79649a151d541f44fcd9e173adf12e07cd6"
+    sha256 "cc88d9829b2ee9f518e51091dfb8fbceca69d15b86984e24ad34c916edf00124"
   end
 
   name "ngrok"
