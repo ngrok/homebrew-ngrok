@@ -1,12 +1,12 @@
 cask "ngrok" do
-  version "3.18.1"
+  version "3.18.2"
 
   if Hardware::CPU.intel?
-    url "https://bin.equinox.io/a/8LNgns4uetU/ngrok-v3-3.18.1-darwin-amd64.zip"
-    sha256 "2c956848a12ed21249dc18863b6e49c18753d48abf70f35da9835a9266e57007"
+    url "https://bin.equinox.io/a/i6TF9eyAdsv/ngrok-v3-3.18.2-darwin-amd64.zip"
+    sha256 "ff279c44f7efc156622fc834576e3c6f0179352cf4219aff316864261610de56"
   else
-    url "https://bin.equinox.io/a/gZu9oin5mM5/ngrok-v3-3.18.1-darwin-arm64.zip"
-    sha256 "9cbaf0c6c6292740e9a3ba9636788e28fc7619026fba5e88ba8d1e825a7b40e1"
+    url "https://bin.equinox.io/a/czUMRaQ5SD8/ngrok-v3-3.18.2-darwin-arm64.zip"
+    sha256 "3d654ea615be67e475f62b1b759f934aa5aadd1f0548f8cd5eb927b717d3b94c"
   end
 
   name "ngrok"
